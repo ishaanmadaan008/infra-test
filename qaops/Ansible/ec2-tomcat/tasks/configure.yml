@@ -1,0 +1,4 @@
+---
+  - name: copy war
+    become: yes
+    copy: src=~/qaops/spring-webapp/target/springwebapp.war dest=/var/lib/tomcat8/webapps mode=0755

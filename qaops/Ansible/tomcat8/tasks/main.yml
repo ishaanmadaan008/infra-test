@@ -1,0 +1,3 @@
+---
+# tasks file for tomcat8
+- include: ../tests/verification.yml

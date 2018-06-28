@@ -1,0 +1,7 @@
+---
+- hosts: test-server-docker
+  roles: 
+    - docker-tests
+- hosts: test-server-VM test-server-EC2
+  roles:
+    - vm-tests

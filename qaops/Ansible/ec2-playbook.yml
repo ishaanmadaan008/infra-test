@@ -1,0 +1,4 @@
+---
+- hosts: test-server-EC2
+  roles:
+    - ec2-tomcat

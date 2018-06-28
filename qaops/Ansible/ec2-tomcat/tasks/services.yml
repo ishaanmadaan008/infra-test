@@ -1,0 +1,4 @@
+---
+  - name: restart tomcat8
+    become: yes
+    service: name=tomcat8 state=restarted

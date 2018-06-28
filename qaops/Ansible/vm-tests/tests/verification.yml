@@ -1,0 +1,50 @@
+---
+ - name: Verify Tomcat version
+   shell: sh /usr/share/tomcat8/bin/version.sh
+   register: cmd_result_tom_ver
+
+ - assert:
+      that:
+      - "'8.0' in cmd_result_tom_ver.stdout"
+ 
+
+
+ - name: Verify tomcat service status
+   shell: service tomcat8 status
+   register: cmd_result_tom
+
+ - assert:
+      that:
+      - "'active' in cmd_result_tom.stdout"
+
+
+
+ - name: Verify Application artifact
+   stat: 
+      path: /var/lib/tomcat8/webapps/springwebapp.war
+   register: p
+
+ - assert:
+      that:
+      - p.stat.exists
+
+
+
+ - name: Verify tomcat port 8080
+   action: uri url=http://localhost:8080 return_content=yes
+   register: webpage
+
+ - name: Dislay message if tomcat message not shown on webapp
+   fail: msg='service tomcat is not happy'
+   when: "'tomcat' not in webpage.content"
+
+
+
+
+ - name: Verify date format
+   shell: date
+   register: cmd_result
+
+ - assert:
+      that:
+      - "'UTC' in cmd_result.stdout"
