@@ -16,8 +16,12 @@ After installing virtual box, go to settings , network Select bridge network
 
 Commands :
    
-   In the qaops directory, Run command :  vagrant up
+   In the qaops directory, Run command :  
+   
+   vagrant up
+   
    docker build . -t tomcat_docker
+   
    docker run -id -p 3999:22 -p 4999:8080 -v ~/.ssh/id_rsa.pub:/root/.ssh/authorized_keys tomcat_docker:latest
    
    Access the application url running under vm and docker
@@ -29,9 +33,11 @@ Commands :
 
 Try ssh into VM and docker without password , rub below commands:
   
-  ssh  vagrant@localhost -p 4000
+  sudo ifconfig lo0 alias 127.0.0.2 up
   
-  ssh root@localhost -p 3999
+  ssh  vagrant@127.0.0.2 -p 4000
+  
+  ssh root@127.0.0.1 -p 3999
  
  
  Go to Ansible folder , run following commands :
