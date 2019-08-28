@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/ishaanmadaan/qaops","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"mount_options":["dmode=774","fmode=775","uid=1000","gid=1000"],"guestpath":"/vagrant","hostpath":"/Users/ishaanmadaan/infra-test/qaops","disabled":false,"__vagrantfile":true}}}

@@ -1,11 +1,11 @@
---- 
+---
  - shell: sh /usr/local/tomcat/bin/version.sh
    register: cmd_result_tom_ver
 
  - assert:
       that:
       - "'Server number:  8.0' in cmd_result_tom_ver.stdout"
- 
+
  - shell: sh /usr/local/tomcat/bin/startup.sh
    register: cmd_result_tom
 
@@ -13,7 +13,7 @@
       that:
       - "'Tomcat started' in cmd_result_tom.stdout"
 
- - stat: 
+ - stat:
       path: /usr/local/tomcat/webapps/springwebapp.war
    register: p
 

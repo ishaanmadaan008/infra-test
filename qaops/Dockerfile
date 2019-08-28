@@ -1,6 +1,6 @@
 FROM tomcat:8.0
 
-ADD spring-webapp/target/springwebapp.war /usr/local/tomcat8/webapps/
+ADD spring-webapp/target/springwebapp.war /usr/local/tomcat/webapps/
 
 RUN apt-get update && apt-get install -y vim
 RUN apt-get update && apt-get install -y python

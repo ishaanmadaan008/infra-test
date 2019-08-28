@@ -6,7 +6,7 @@
  - assert:
       that:
       - "'8.0' in cmd_result_tom_ver.stdout"
- 
+
 
 
  - name: Verify tomcat service status
@@ -20,7 +20,7 @@
 
 
  - name: Verify Application artifact
-   stat: 
+   stat:
       path: /var/lib/tomcat8/webapps/springwebapp.war
    register: p
 
