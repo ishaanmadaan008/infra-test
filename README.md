@@ -43,5 +43,6 @@ Try ssh into VM and docker without password , rub below commands:
  Go to Ansible folder , run following commands :
  
   ansible all -m ping -i hosts
+  
   ansible-playbook test-playbook.yml -i hosts
     
