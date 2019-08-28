@@ -1,0 +1,5 @@
+com/jeromejaglale/config/ServletInitializer.class
+com/jeromejaglale/config/AppConfig.class
+com/jeromejaglale/service/CarService.class
+com/jeromejaglale/controller/CarController.class
+com/jeromejaglale/domain/Car.class
