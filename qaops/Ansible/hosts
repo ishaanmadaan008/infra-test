@@ -1,4 +1,4 @@
 [test-server-VM]
-127.0.0.1 ansible_connection=ssh ansible_port=4000 ansible_user=vagrant 
+127.0.0.2 ansible_connection=ssh ansible_port=4000 ansible_user=vagrant 
 [test-server-docker]
 127.0.0.1 ansible_connection=ssh ansible_port=3999 ansible_user=root 
