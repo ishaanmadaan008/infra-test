@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/QAPM/jaws-connector" value="4530119127000" />
+        <entry key="$USER_HOME$/QAPM/test/Integration" value="6039881468000" />
+        <entry key="$USER_HOME$/QAPM/trunt/Integration" value="6040236688000" />
+        <entry key="$USER_HOME$/git_dev_cat/blazedemo" value="3019805092000" />
+        <entry key="$USER_HOME$/mbd-otr-code/konfigurator-endtoend-tests" value="4560982619000" />
+        <entry key="$USER_HOME$/mbd-otr-code/vds/backend" value="3039607012000" />
+        <entry key="$USER_HOME$/qaops_vodqa/API" value="3024748360000" />
+        <entry key="$USER_HOME$/qapm/JobService" value="1511355199000" />
+        <entry key="$USER_HOME$/qapm/feed-management" value="4533525999000" />
+        <entry key="$USER_HOME$/qapm/ingestion-service/ingestionservice" value="4530194292000" />
+        <entry key="$USER_HOME$/qapm/jaws-connector" value="4530119127000" />
+        <entry key="$USER_HOME$/qapm/test/Integration" value="6061179263000" />
+        <entry key="$USER_HOME$/vodqa/vodqa-big-data" value="1479286363000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/mbd-otr-code/Api-Tests" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/StockSearchPerformanceTests" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/base-interface" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/greeter" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/konfigurator" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/konfigurator-endtoend-tests" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/konfigurator-mocks" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/order" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/order/functional-tests" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/otr-e2e-load-tests" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/otr-gateway" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/stock-search" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/stock_search_functional_tests" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/vds" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/vds/backend" value="PREVIEW" />
+        <entry key="$USER_HOME$/mbd-otr-code/vds/vdsIntTest" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$ANDROID_HOME$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41034484" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/git_dev_cat/gatling-t/gatling_performance" value="1509962775000" />
+        <entry key="$USER_HOME$/my_git_cat/Courseera_Scala" value="1496938084000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41034484" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 28 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41034484" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 22 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41034484" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
