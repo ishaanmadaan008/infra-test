@@ -12,7 +12,6 @@ Prerequisite :
   
   Install python: brew install python
 
-After installing virtual box, go to settings , network Select bridge network
 
 Commands :
    
